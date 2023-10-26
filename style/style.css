@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,6 +16,14 @@
     font-size: 20px;
     
 }
+.btn-secondary{
+    height: 64px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 24px;
+}
 .header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png),url(../images/developer.png); 
@@ -24,7 +32,7 @@
 }
 .header-nav{
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 800
 }
 nav {
     display: flex;
@@ -50,7 +58,8 @@ nav ul li {
     margin: 0 50px 0 200px;
 }
 
-.title-intro{
+.title-intro
+{
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -69,4 +78,19 @@ nav ul li {
     color: #757575;
     margin-bottom: 10px;
 
+}
+/*about me section*/
+.about-me{
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.about-pera{
+    color: #757575;
+    padding:30px 100px 30px 100px   ;
 }

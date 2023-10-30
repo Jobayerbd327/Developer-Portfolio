@@ -23,6 +23,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 20px 24px;
+    background: transparent;
 }
 .header{
     background-color: #FFF8F3;
@@ -83,6 +84,7 @@ nav ul li {
 .about-me{
     margin: 130px 230px;
     background-color: #FFF8F3;
+    justify-content: space-between;
 }
 .common-heading{
     font-size: 35px;
@@ -104,20 +106,70 @@ nav ul li {
 .child{
     padding-bottom: 100px;
 }
-.what-i-do-section{
-    margin: 20px 100px 100px 100px;
-    text-align: center;
-    padding: 80px;
-    gap: 30px;
+
+
+/* what i do section starts here*/
+.what-i-do-section{}
+.what-i-description{
+
 }
+.what-i-description h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.what-i-description p {
+    color: #757575;
+    font-size: 18px;
+    margin: 30px 345px 30px 345px;
+    
+
+}
+    
 .what-i-do-card{
     display: flex;
+    margin: 50px 230px 130px 230px;
+    margin-top: 50px;
+    gap: 24px;
 }
 .card{
-    margin:20px;
-    margin-top: 80px;
-    background-color: #FFF;
-    border-radius: 5px;
-    box-shadow:0px 6px 50px 0px ;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+    
 }
+.card-h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card p{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
+
+.summary{
+    display: flex;
+}
+.summary-h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.summary-h4{
+    font-size: 25px;
+}
+.summary-p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
 
